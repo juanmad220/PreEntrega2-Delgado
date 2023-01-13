@@ -5,7 +5,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: black;
+}
 .hero{
-    background-image:url(img/foto2.jpg) ;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.70)), url(img/foto1.jpg);
     height: 100vh;
+}
+.navbar-brand:hover{
+    transform: scale(1.1);
+}
+
+.nav-item:hover{
+    transform: scale(1.2);
+}
+/* footer  */
+
+footer{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding:10px;
+}
+footer p{
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+.redes i{
+    letter-spacing: 10px;
+    color: #fff;
+}
+.redes i:hover{
+    color: rgb(0, 255, 0);
+    transform: scale(1.5)
 }
